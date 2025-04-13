@@ -1,0 +1,217 @@
+<html>
+    <head>
+        <title>Instambul</title>
+    </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    * {box-sizing: border-box;}
+    
+    body { 
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .header {
+      overflow: hidden;
+      background-color: #f1f1f1;
+      padding: 20px 10px;
+    }
+    
+    .header a {
+      float: left;
+      color: black;
+      text-align: center;
+      padding: 12px;
+      text-decoration: none;
+      font-size: 18px; 
+      line-height: 25px;
+      border-radius: 4px;
+    }
+    
+    .header a.logo {
+      font-size: 25px;
+      font-weight: bold;
+    }
+    
+    .header a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    .header a.active {
+      background-color: dodgerblue;
+      color: white;
+    }
+    
+    .header-right {
+      float: right;
+    }
+    .cta-button {
+  display: inline-block;
+  background-color: #e63946; /* roșu intens, se poate schimba */
+  color: white;
+  padding: 12px 24px;
+  font-size: 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #d62828; /* nuanță mai închisă la hover */
+}
+    @media screen and (max-width: 500px) {
+      .header a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+      
+      .header-right {
+        float: none;
+      }
+    }
+    .hero {
+      background-image:#dfc2f080; ;
+      background-size: cover;
+      background-position: center;
+      height: 60vh;
+      color: white;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      box-shadow: inset 0 0 50px #16045580;
+    }
+
+    .hero h1 {
+      font-size: 50px;
+      text-shadow: 2px 2px 10px #000000b3;
+      margin: 0;
+    }
+
+    .section {
+      padding: 40px;
+      background-color: white;
+      margin: 40px auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px #0000001a;
+      max-width: 1200px;
+      text-align: center;
+    }
+
+    .section-title {
+      font-size: 36px;
+      color: #e63946;
+      margin-bottom: 20px;
+    }
+
+    .section-content {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 40px;
+      text-align: left;
+      justify-items: center;
+      padding: 20px;
+    }
+
+    .section-content div {
+      width: 90%;
+    }
+
+    .section-content h2 {
+      color: #e63946;
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .section-content p {
+      font-size: 18px;
+      color: #555;
+      line-height: 1.8;
+    }
+
+    .dish-img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .dish-list {
+      padding: 20px;
+      list-style-type: none;
+      text-align: left;
+    }
+
+    .dish-list li {
+      margin: 20px 0;
+    }
+
+    .dish-list h3 {
+      font-size: 24px;
+      color: #e63946;
+      margin-bottom: 10px;
+    }
+
+    .dish-list p {
+      font-size: 16px;
+      color: #555;
+    }
+
+    </style>
+<body>
+    
+<div class="header">
+    <img src="p1.jpeg" class="logo">
+    <div class="header-right">
+      <a href="turistice.html">Atracții turistice</a>
+      <a href="mancaruri.html">Delici turcești</a>
+      <a href="opinia.html">Părerea mea</a>
+      
+    </div>
+  </div>
+  
+  <div style="padding-left:20px">
+    <section class="hero">
+        <h1>Mâncăruri Tradiționale din Istanbul</h1>
+      </section>
+      <section class="section">
+        <div class="section-title">Bucătăria Istanbulului</div>
+        <div class="section-content">
+          <div>
+            <h2>Oferte culinare de neuitat</h2>
+            <p>Istanbulul este un oraș care îmbină tradițiile culinare ale Orientului și Occidentului. De la celebrele kebaburi la dulciurile delicioase ca baklava, fiecare masă este o experiență de neuitat. Mâncarea turcească este diversă, plină de arome și influențe din diferite regiuni ale țării și ale lumii. Iată câteva dintre cele mai reprezentative preparate din Istanbul:</p>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="dish-list">
+          <h3>Kebap</h3>
+          <p>Kebapul este un preparat emblematic al Turciei, care poate fi găsit în diverse variante în Istanbul. Carnea de miel sau de vită este marinată și gătită la grătar, servită cu legume și orez sau pâine pita.</p>
+          <img src="p60.jpg" alt="Kebap" class="dish-img">
+    
+          <h3>Baklava</h3>
+          <p>Un desert dulce și crocant, făcut din foi subțiri de aluat, nuci sau fistic și îmbibat cu sirop de zahăr sau miere. Baklava este un simbol al tradiției turcești și o delicatesă care nu trebuie ratată în Istanbul.</p>
+          <img src="p61.png" alt="Baklava" class="dish-img">
+    
+          <h3>Simit</h3>
+          <p>Simitul este o pâine turcească rotundă, acoperită cu semințe de susan. Este o gustare populară pe care o poți găsi la fiecare colț de stradă din Istanbul, adesea servită cu ceai turcesc.</p>
+          <img src="p63.jpeg" alt="Simit" class="dish-img">
+    
+          <h3>Meze</h3>
+          <p>Mezele sunt aperitive turcești, care includ o varietate de salate, legume marinate, brânzeturi, sau carne la grătar. Acestea sunt servite adesea într-o masă comună, iar fiecare persoană își alege ce vrea să guste.</p>
+          <img src="p67.jpeg" alt="Meze" class="dish-img">
+    
+          <h3>Hamsi</h3>
+          <p>Hamsi este un pește mic, tipic regiunii Mării Negre, dar foarte popular și în Istanbul. Este gătit fie prăjit, fie la grătar, fiind servit adesea cu lămâie și ceapă.</p>
+          <img src="p65.jpg" alt="Hamsi" class="dish-img">
+    
+          <h3>Köfte</h3>
+          <p>Köfte sunt chiftele turcești, făcute din carne tocată, de obicei de vită sau miel, amestecată cu condimente și ierburi aromatice. Se servesc cu orez sau pâine și sunt extrem de gustoase.</p>
+          <img src="p66.png" alt="Köfte" class="dish-img">
+        </div>
+      </section>
+  </div>
+</body>
+</html>

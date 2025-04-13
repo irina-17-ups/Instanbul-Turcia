@@ -1,0 +1,160 @@
+<html >
+<head>
+  <title>Moscheea Albastră - Istanbul</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #af8383;
+    }
+
+    .hero {
+      background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/03/Sultan_Ahmed_Mosque%2C_Istanbul.jpg'); /* imaginea de fundal pentru Moscheea Albastră */
+      background-size: cover;
+      background-position: center;
+      height: 70vh;
+      color: white;
+      text-align: center;
+      position: relative;
+    }
+
+    .hero-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+      padding: 20px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    }
+
+    .content {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      padding: 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .card {
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover img {
+      transform: scale(1.1);
+    }
+
+    .card .description {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.7);
+      color: white;
+      padding: 20px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .card:hover .description {
+      opacity: 1;
+    }
+
+    .text-column {
+      grid-column: span 1;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .text-column h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .text-column p {
+      font-size: 18px;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .text-column ul {
+      font-size: 18px;
+      color: #555;
+      padding-left: 20px;
+    }
+
+    .text-column ul li {
+      margin-bottom: 10px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Moscheea Albastră</h1>
+    </div>
+  </section>
+
+  <div class="content">
+    <div class="card">
+      <img src="p41.jpeg" alt="Intrare Moscheea Albastră">
+      <div class="description">
+        <h3>Intrarea în Moschee</h3>
+        <p>Intrarea impunătoare a Moscheii Albastre, o structură grandioasă cu 6 minarete și o arhitectură spectaculoasă.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="p4.jpg" alt="Interiorul Moscheii Albastre">
+      <div class="description">
+        <h3>Interiorul Moscheii</h3>
+        <p>Interiorul moscheii este decorat cu mozaicuri albastre de faianță, care dau și numele moscheii. Un loc de rugăciune impresionant și liniștit.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="p4.jpeg" alt="Exteriorul Moscheii Albastre">
+      <div class="description">
+        <h3>Exteriorul Moscheii</h3>
+        <p>Vista magnifică a Moscheii Albastre din față, cu grădinile sale și minaretele înalte, care se ridică în cer.</p>
+      </div>
+    </div>
+
+      <h2>Despre Moscheea Albastră</h2>
+      <p>Construirea Moscheii Albastre a început în 1609 și a fost finalizată în 1616. Este cunoscută pentru designul său impresionant și pentru cele 6 minarete, care au fost un element inedit la acea vreme. Moscheea este un simbol al Istanbulului și un loc de rugăciune important pentru musulmani.</p>
+
+      <p>Unul dintre cele mai remarcabile elemente ale acestei moschei este plafonul, care este decorat cu mozaicuri albastre din faianță. Aceste mozaicuri sunt realizate din mai multe nuanțe de albastru, dându-i moscheii o atmosferă unică și impresionantă.</p>
+
+      <h3>Ce poți vizita:</h3>
+      <ul>
+        <li>Minaretele – cele 6 minarete, un element distinctiv al arhitecturii moscheii.</li>
+        <li>Curtea interioară – o curte imensă, perfectă pentru relaxare și rugăciune.</li>
+        <li>Camera principală de rugăciune – spațiu vast cu covoare tradiționale și faianță albastră.</li>
+        <li>Grădina exterioară – locul ideal pentru a te relaxa și a observa peisajul din jurul moscheii.</li>
+      </ul>
+    </div>
+
+  </div>
+
+</body>
+</html>

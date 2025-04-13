@@ -1,0 +1,156 @@
+<html >
+<head>
+  <title>Palatul Topkapi - Istanbul</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #af8383;
+    }
+    .hero {
+      background-image:  #af8383;
+      background-size: cover;
+      background-position: center;
+      height: 70vh;
+      color: white;
+      text-align: center;
+      position: relative;
+    }
+
+    .hero-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+      padding: 20px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    }
+
+    .content {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      padding: 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .card {
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover img {
+      transform: scale(1.1);
+    }
+
+    .card .description {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.7);
+      color: white;
+      padding: 20px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .card:hover .description {
+      opacity: 1;
+    }
+
+    .text-column {
+      grid-column: span 1;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .text-column h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .text-column p {
+      font-size: 18px;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .text-column ul {
+      font-size: 18px;
+      color: #555;
+      padding-left: 20px;
+    }
+
+    .text-column ul li {
+      margin-bottom: 10px;
+    }
+
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Palatul Topkapi</h1>
+    </div>
+  </section>
+  <div class="content">
+    <div class="card">
+      <img src="p9.jpg" alt="Intrare Palat Topkapi">
+      <div class="description">
+        <h3>Intrarea în Palat</h3>
+        <p>Intrarea principală a Palatului Topkapi, un loc grandios, marcat de coloane impunătoare și o arhitectură uimitoare.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="p10.jpg" alt="Interiorul Palatului Topkapi">
+      <div class="description">
+        <h3>Interiorul Palatului</h3>
+        <p>În interior, palatul este plin de camere luxuriante și obiecte de artizanat, oferind o privire asupra opulenței otomane.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="p11.jpg" alt="Haremul Palatului Topkapi">
+      <div class="description">
+        <h3>Haremul Palatului</h3>
+        <p>Haremul este un loc fascinant, plin de povești și secrete despre viața din timpul sultanilor.</p>
+      </div>
+    </div>
+
+      <h2>Despre Palatul Topkapi</h2>
+      <p>Palatul Topkapi a fost construit în secolul al XV-lea și a fost reședința principală a sultanilor otomani. Aici se află comori de neprețuit și relicve sfinte, iar arhitectura sa reflectă splendoarea Imperiului Otoman.</p>
+
+      <p>Vizitează acest loc emblematic pentru a înțelege mai bine istoria și cultura imperiului otoman, și descoperă opulența și intrigile care au caracterizat viața de la curtea sultanilor.</p>
+
+      <h3>Ce poți vizita:</h3>
+      <ul>
+        <li>Haremul – locul unde trăiau soțiile și concubinele sultanului.</li>
+        <li>Comorile imperiale – bijuterii și artefacte rare.</li>
+        <li>Sălile cu arme și armuri – expoziții de arme din perioada otomană.</li>
+        <li>Sala Tronului – unde sultanul își primea vizitatorii importanți.</li>
+      </ul>
+    </div>
+
+  </div>
+
+</body>
+</html>

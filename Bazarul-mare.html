@@ -1,0 +1,159 @@
+<html >
+<head>
+  <title>Bazarul Mare - Istanbul</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #af8383;
+    }
+
+    .hero {
+      background-image: #af8383;
+      background-size: cover;
+      background-position: center;
+      height: 70vh;
+      color: white;
+      text-align: center;
+      position: relative;
+    }
+
+    .hero-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+      padding: 20px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    }
+
+    .content {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      padding: 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .card {
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover img {
+      transform: scale(1.1);
+    }
+
+    .card .description {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.7);
+      color: white;
+      padding: 20px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .card:hover .description {
+      opacity: 1;
+    }
+
+    .text-column {
+      grid-column: span 1;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .text-column h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .text-column p {
+      font-size: 18px;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .text-column ul {
+      font-size: 18px;
+      color: #555;
+      padding-left: 20px;
+    }
+
+    .text-column ul li {
+      margin-bottom: 10px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Bazarul Mare - Istanbul</h1>
+    </div>
+  </section>
+
+  <div class="content">
+    <div class="card">
+      <img src="p50.jpeg" alt="Interiorul Bazarului Mare">
+      <div class="description">
+        <h3>Interiorul Bazarului Mare</h3>
+        <p>O privire asupra interiorului Bazarului Mare, unde culoarele sunt pline de standuri colorate, pline de produse diverse.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="p51.jpeg" alt="Culoar Bazarul Mare">
+      <div class="description">
+        <h3>Culoar în Bazarul Mare</h3>
+        <p>Unul dintre culoarele faimoase ale Bazarului Mare, unde se găsesc suveniruri, bijuterii și multe alte articole tradiționale.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="p53.jpeg" alt="Vânzători la Bazarul Mare">
+      <div class="description">
+        <h3>Vânzători la Bazarul Mare</h3>
+        <p>Vânzătorii tradiționali din Bazarul Mare, fiecare cu produsele sale unice, de la ceramica de Istanbul la țesături și condimente.</p>
+      </div>
+    </div>
+      <h2>Despre Bazarul Mare</h2>
+      <p>Bazarul Mare din Istanbul este una dintre cele mai mari și mai vechi piețe acoperite din lume. Construirea sa a început în 1455, la scurt timp după cucerirea Constantinopolului de către Imperiul Otoman, și a devenit un loc important pentru comerțul cu mărfuri din întreaga lume.</p>
+
+      <p>Bazarul Mare are mai mult de 4.000 de magazine care vând o gamă largă de produse, de la bijuterii și țesături fine până la condimente, antichități și obiecte de artizanat turcesc. Este un loc vibrant, unde vizitatorii pot experimenta cultura turcească autentică.</p>
+
+      <h3>Ce poți vizita:</h3>
+      <ul>
+        <li>Magazinele de bijuterii – cu o gamă largă de bijuterii tradiționale turcești.</li>
+        <li>Secțiunile cu țesături – unde vei găsi covoare și țesături din Istanbul și alte părți ale Turciei.</li>
+        <li>Secțiuni de condimente – celebrele prafuri și mirodenii turcești, care dau un parfum distinctiv pieței.</li>
+        <li>Artizanatul – obiecte tradiționale din lemn, ceramică și metal.</li>
+      </ul>
+    </div>
+
+  </div>
+
+</body>
+</html>
